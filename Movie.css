@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Work Sans", sans-serif;
+}
+
+body {
+    background-color: #03A6A1;
+}
+
+.container {
+    /* border: 2px solid black; */
+    margin: 50px auto;
+    width: 50%;
+    padding: 10px 10px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 3px 3px #888888;
+}
+
+.error {
+    margin: 20px;
+    color: red;
+}
+
+.title-app {
+    color: red;
+    margin: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.load {
+    margin: 20px;
+    color: blue;
+}
+
+.search-container {
+    border: 2px solid rgb(0, 81, 255);
+    display: flex;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+    /* justify-content: space-between; */
+}
+
+.search-container input {
+    outline: none;
+    /* border: 2px solid blue; */
+    font-size: 15px;
+    border: none;
+    flex: 1;
+}
+
+.search-container button {
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition-property: background-color;
+    transition-duration: 300ms;
+    transition-delay: 20ms;
+}
+
+.search-container button:hover {
+    background-color: rgb(5, 5, 134);
+}
+
+.details-container {
+    /* border: 2px solid yellow; */
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.img-container {
+    margin: auto;
+    width: 60%;
+    padding: 20px;
+    /* border: 2px solid grey; */
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.movie-detail {
+    margin-top: 25px;
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.movie-detail span {
+    font-weight: 600;
+}
+
+.design {
+    text-align: center;
+    font-size: 15px;
+    margin: 10px;
+    padding: 5px;
+    color: green;
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        width: auto;
+        padding: 20px;
+    }
+}
